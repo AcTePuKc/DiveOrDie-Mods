@@ -1,0 +1,848 @@
+# Translation entries will be added after the localization pipeline is identified.
+
+# Initial UI batch
+itemType_FOOD=Храна
+itemType_MEMENTO=Спомен
+itemType_IDOL=Идол
+itemType_BLUEPRINT=Чертеж
+itemType_MATERIAL=Материал
+itemType_AMMUNITION=Боеприпаси
+itemType_USABLE_CONSUMABLE=Консуматив
+itemType_USABLE_TOOL=Инструмент
+itemType_CREATURE_MATERIAL=Материал
+itemType_UPGRADE=Подобрение
+itemType_JOURNAL=Страница от дневника
+
+label_survivorTraits=Характеристики
+label_survivorConditions=Състояния
+label_craft=Изработка
+label_upgrade=Подобрение
+label_equipment=Екипировка
+label_upkeep=Поддръжка
+label_food=Храна
+label_morale=Морал
+label_collectedItems=Събрани предмети
+label_Gameplay=Геймплей
+label_MasterVolume=Основна сила на звука
+label_Music=Музика
+label_Ambient=Околна среда
+label_SFX=Звукови ефекти
+label_backToCamp=Задръж за връщане в лагера
+label_resolutions=Разделителна способност
+label_brightness=Яркост
+label_displayMode=Режим на дисплея
+label_vsync=Вертикална синхронизация
+label_events=Събития за днес
+label_previous=Предишни
+label_loot=Плячка
+label_build=Строителство
+label_loading=Зареждане…
+label_Yes=Да
+label_No=Не
+label_paused=На пауза
+label_survivorExperience=Опит на оцелелия
+label_levelUp=Ново ниво!
+label_survivorLog=Дневник
+label_expeditionReport=Доклад за експедицията
+label_nutritionWithUpkeep=Хранене (-{value}/ден)
+label_moraleWithUpkeep=Морал (-{value}/ден)
+label_perform=Изпълни
+label_sacrifice=Жертвай
+label_change=Промени
+label_new=Ново
+label_survivorCharacteristics=Характеристики на оцелелия
+
+btn_backToMainMenu=Към главното меню
+btn_quit=Изход
+btn_exitToDesktop=Изход към работния плот
+
+inputHint_next=Напред
+inputHint_selectCraft=Избери изработка
+inputHint_changeCategory=Смени категорията
+inputHint_minusOne=Минус едно
+inputHint_close=Затвори
+inputHint_selectDiver=Избери водолаз
+inputHint_editSlot=Редактирай слота
+inputHint_clearSlot=Изчисти слота
+inputHint_moraleIntel=Морал
+inputHint_holdToOpen=Задръж за отваряне
+inputHint_holdForIdol=Задръж за вземане на идол
+inputHint_dropItem=Изхвърли предмета
+inputHint_navigate=Навигация
+inputHint_previous=Назад
+inputHint_use=Използвай
+inputHint_aim=Прицели се
+inputHint_dash=Рязко движение
+inputHint_swapAmmo=Смени боеприпасите
+inputHint_selectSurvivor=Избери оцелял
+inputHint_destinationMap=Карта
+inputHint_selectIdol=Превключи идола
+
+label_lock=<link="buttonHint_host">Домакин ({value}/2)</link>
+label_recruit=<link="buttonHint_recruit">Наеми</link>
+label_devotionTributeCost=-{value} психика за {survivor}
+label_defaultManningEffect=Ефект по подразбиране на екипажа: {state}
+label_defaultManningSkill=Умение на екипажа: {state}
+
+# Traits, conditions and attributes
+attribute_WEIGHT=Тегло
+attribute_SANITY=Психика
+attribute_MORALE_UPKEEP=Поддръжка на морала
+
+trait_MartialArts_1=<link="traitDesc_MartialArts_1">Бойни изкуства I</link>
+trait_MartialArts_2=<link="traitDesc_MartialArts_2">Бойни изкуства II</link>
+trait_MartialArts_3=<link="traitDesc_MartialArts_3">Бойни изкуства III</link>
+trait_Apnea_1=<link="traitDesc_Apnea_1">Апнея I</link>
+trait_Apnea_4=<link="traitDesc_Apnea_4">Апнея IV</link>
+trait_MentalStability_3=<link="traitDesc_MentalStability_3">Психическа устойчивост III</link>
+trait_Claustophobic=<link="traitDesc_Claustophobic">Клаустрофобия</link>
+trait_Nostalgic=<link="traitDesc_Nostalgic">Носталгичен</link>
+trait_QuickLearner=<link="traitDesc_QuickLearner">Бързо учене</link>
+trait_SelfImprovement=<link="traitDesc_SelfImprovement">Самоусъвършенстване</link>
+trait_Erudition_4=<link="traitDesc_Erudition_4">Ерудиция IV</link>
+trait_Geology_2=<link="traitDesc_Geology_2">Геология II</link>
+trait_Botany_1=<link="traitDesc_Botany_1">Ботаника I</link>
+trait_Botany_4=<link="traitDesc_Botany_4">Ботаника IV</link>
+trait_Zoology_1=<link="traitDesc_Zoology_1">Биология I</link>
+trait_Zoology_2=<link="traitDesc_Zoology_2">Биология II</link>
+trait_Zoology_3=<link="traitDesc_Zoology_3">Биология III</link>
+trait_RainGrazed=<link="traitDesc_RainGrazed">Докоснат от дъжда</link>
+trait_Obsessive=<link="traitDesc_Obsessive">Натрапчив</link>
+trait_Healthy=<link="traitDesc_Healthy">Здрав</link>
+trait_FinnedHands=<link="traitDesc_FinnedHands">Плавници вместо ръце</link>
+trait_Mechanics_3=<link="traitDesc_Mechanics_3">Механика III</link>
+trait_Hosting_1=<link="traitDesc_Hosting_1">Навигация I</link>
+trait_RitualPractice_1=<link="traitDesc_RitualPractice_1">Ритуална практика I</link>
+trait_RitualPractice_2=<link="traitDesc_RitualPractice_2">Ритуална практика II</link>
+trait_RitualPractice_4=<link="traitDesc_RitualPractice_4">Ритуална практика IV</link>
+trait_Medecine_1=<link="traitDesc_Medecine_1">Медицина I</link>
+trait_Medecine_4=<link="traitDesc_Medecine_4">Медицина IV</link>
+trait_MarineEngineering_3=<link="traitDesc_MarineEngineering_3">Морско инженерство III</link>
+trait_Survivalist_1=<link="traitDesc_Survivalist_1">Оцеляване I</link>
+trait_Survivalist_4=<link="traitDesc_Survivalist_4">Оцеляване IV</link>
+trait_Hunter_1=<link="traitDesc_Hunter_1">Ловец I</link>
+trait_Hunter_4=<link="traitDesc_Hunter_4">Ловец IV</link>
+trait_Chemistry_1=<link="traitDesc_Chemistry_1">Химия I</link>
+trait_Chemistry_2=<link="traitDesc_Chemistry_2">Химия II</link>
+trait_Fishing_1=<link="traitDesc_Fishing_1">Риболов I</link>
+trait_Serene=<link="traitDesc_Serene">Безметежен</link>
+trait_Masochistic=<link="traitDesc_Masochistic">Мазохистичен</link>
+trait_IronLungs=<link="traitDesc_IronLungs">Железни бели дробове</link>
+trait_Hypochondriac=<link="traitDesc_Hypochondriac">Хипохондрик</link>
+trait_Swimming_1=<link="traitDesc_Swimming_1">Плуване I</link>
+trait_Swimming_2=<link="traitDesc_Swimming_2">Плуване II</link>
+trait_Swimming_3=<link="traitDesc_Swimming_3">Плуване III</link>
+
+condition_BrokenRib=<link="conditionDesc_BrokenRib">Счупено ребро</link>
+condition_HearingVoices=<link="conditionDesc_HearingVoices">Чува гласове</link>
+condition_Nurtured=<link="conditionDesc_Nurtured">Обгрижван</link>
+condition_Satisfied=<link="conditionDesc_Satisfied">Доволен</link>
+condition_Edema=<link="conditionDesc_Edema">Оток</link>
+condition_Depressed=<link="conditionDesc_Depressed">Потиснат</link>
+condition_Bitter=<link="conditionDesc_Bitter">Озлобен</link>
+condition_Fatigued=<link="conditionDesc_Fatigued">Изтощен</link>
+condition_SuppressedAmygdala=<link="conditionDesc_SuppressedAmygdala">Потисната амигдала</link>
+condition_HeatControl=<link="conditionDesc_HeatControl">Контрол на топлината</link>
+condition_Dismissed=<link="conditionDesc_Dismissed">Отстранен</link>
+condition_Frail=<link="conditionDesc_Frail">Крехък</link>
+condition_Strong=<link="conditionDesc_Strong">Силен</link>
+condition_Impervious=<link="conditionDesc_Impervious">Неподатлив</link>
+condition_Adamantine=<link="conditionDesc_Adamantine">Адамантов</link>
+condition_ThinkingAboutGaming=<link="conditionDesc_ThinkingAboutGaming">Мисли за игри</link>
+
+# Item names: first gameplay batch
+itemName_FoodCan=Консерва
+itemName_SmallMemento=Малък спомен
+itemName_IronOre=Желязна руда
+itemName_CopperOre=Медна руда
+itemName_SanityLeech=Пиявица на психиката
+deathMotive_sanity leech=Психиката на {name} се пречупи, отнемайки волята за живот и яснотата на ума.
+itemDesc_SmallMemento=Разнебитен спомен от отминалото. Носи носталгия и утеха.\n\n+5 морал
+itemDesc_IdolOfBetrayal=Зловещ идол, олицетворяващ предателството.
+deathMotive_suffix=<br><br>Нека приливите отнесат тази душа.
+deathMotive_generic={name} загина.
+deathMotive_oxygen={name} не успя да се върне на повърхността.
+deathMotive_killer algae=Отровеното тяло на {name} ще остане тор за зловещите растения.
+deathMotive_rain touched=Вечно жадните Докоснати от Дъжда разкъсаха {name}.
+itemName_IdolOfBetrayal=Идол на предателството
+itemName_Flechette=Стреличка
+itemName_HealingBalm=Целебен балсам
+itemName_Flare=Сигнална ракета
+itemName_DivingKnife=Нож за гмуркане
+itemName_NeedleGun=Пистолет за стрелички
+itemName_DivingKnife_LongBlade=Дълго острие за ножа за гмуркане
+itemName_OxygenTank_3=Кислородна бутилка Mk. 3
+itemName_OxygenTank_2=Кислородна бутилка Mk. 2
+itemName_Flashlight_2=По-ярък фенер
+itemName_NeedleGun_LargeChamber=Голям пълнител за пистолета за стрелички
+itemName_Flashlight=Фенер
+itemName_Rucksack=Раница
+itemName_OxygenTank=Кислородна бутилка
+itemName_AlgaeTissue=Тъкан от водорасли
+itemName_Plank=Дъска
+itemName_Silicon=Силиций
+itemName_WebCoral=Мрежест корал
+itemName_Rucksack_2=Разширение за раницата
+itemName_Anxiolytic=Успокоително
+itemName_Blueprint_SerratedDart=Назъбена стреличка
+itemName_ReinforcedSuit=Подсилен костюм
+itemName_FoodCrate=Кашон с храна
+itemName_Aluminium=Алуминий
+itemName_WhiteDrug=Бяло лекарство
+itemName_BlueDrug=Синьо лекарство
+itemName_RedDrug=Червено лекарство
+itemName_Powersaw=Мощен трион
+itemName_ElectricPulseGenerator=Генератор на електрически импулси
+itemName_Flashlight_Mwk=Майсторски изработен фенер
+itemName_Rebreather_Mwk=Майсторски изработен дихателен апарат
+itemName_Rucksack_Mwk=Майсторски изработена раница
+itemName_OxygenTank_Mwk=Майсторски изработена кислородна бутилка
+itemName_RainRot=Дъждовно гниене
+itemName_ShinyCoin=Лъскава монета
+itemName_EerilyFunctionalGamingConsole=Зловещо работеща игрова конзола
+itemName_Carbon=Въглерод
+itemName_LeechBlood=Жлеза на пиявица
+itemName_Rucksack_3=Свръхестествена гъвкавост на раницата
+itemName_Rebreather=Дихателен апарат
+itemName_SerratedDart=Назъбена стреличка
+itemName_Beacon=Радиомаяк
+itemName_Fins=Плавници
+itemName_ToxinFilteringSuit=Костюм за филтриране на токсини
+itemName_IdolOfLoss=Идол на загубата
+itemName_Rebreather_HydrophobicGoggles=Хидрофобни очила за дихателния апарат
+itemName_OxygenSurplus=Запас от кислород
+itemName_BlackOxygenTank=Черна кислородна бутилка
+itemName_Blueprint_BlackOxygenTank=Черна кислородна бутилка
+itemName_Blueprint_OxygenTank_2=Кислородна бутилка Mk. 2
+itemName_Blueprint_OxygenTank_3=Кислородна бутилка Mk. 3
+itemName_Blueprint_OxygenTank_4=Кислородна бутилка Mk. 4
+itemName_OxygenTank_4=Кислородна бутилка Mk. 4
+itemName_CorrosiveDart=Разяждаща стреличка
+itemName_PoisonSpore=Отровна спора
+itemName_Lithium=Литий
+itemName_Plastic=Пластмаса
+itemName_Heirloom=Реликва
+itemName_UnderwaterScooter=Подводен скутер
+itemName_TranquilizingDart=Приспивна стреличка
+itemName_KahrKeenosEgg=Яйце на Кар'Кинос
+itemName_Fins_Mwk=Майсторски изработени плавници
+itemName_Blueprint_DivingKnife_LongBlade=Дълго острие за ножа за гмуркане
+itemName_DivingKnife_BloodBlade=Кърваво острие за ножа за гмуркане
+itemName_Blueprint_DivingKnife_BloodBlade=Кърваво острие за ножа за гмуркане
+
+# Item descriptions: first gameplay batch
+itemDesc_CopperOre=Разпространен проводим метал. Използва се за изработка на електронни устройства и други предмети.
+itemDesc_IronOre=Най-разпространеният метал в Бездънните води. Използва се за подобряване и строеж на конструкции, както и за изработката на много предмети.
+itemDesc_FoodCan=Малка консерва с неидентифицирана храна. Дано още става за ядене.\n\n+5 хранене
+itemDesc_Flechette=Перфектно оформена за хидродинамично движение. Основен боеприпас за пистолета за стрелички.
+itemDesc_HealingBalm=Възстановява 15 точки здраве. Използването му отнема няколко секунди. Използва се и за лечение на определени състояния в лечебницата.
+itemDesc_Flare=Осветява околността за 1 минута.
+itemDesc_Flashlight=Обикновен фенер. Нека утешителната му искра осветява пътя ти през бездната.
+itemDesc_Rucksack=Проста водоустойчива раница, изтъкана от лек материал. Увеличава товароносимостта.\n+4.0kg
+itemDesc_OxygenTank=Кислород. Ще ти потрябва.\n+90 O2
+itemDesc_DivingKnife=Макар изработката и завършекът му да са аматьорски, острието лесно прерязва растения и тъкан.
+itemDesc_Aluminium=Универсален лек метал, използван за най-различни изработки. Използва се за изработка на най-различни предмети.
+itemDesc_Powersaw=Макар да е твърде стар, за да работи, огромната му батерия и вътрешната му електроника могат да се използват за захранване на по-нови устройства.
+itemDesc_Plank=Доброто старо дърво вече не се среща често, тъй като дърветата почти са изчезнали. Използва се като основа за повечето подобрения на строежите.
+itemDesc_AlgaeTissue=Органична тъкан с изключителна регенеративна способност. Дни след отделянето си все още реагира на допир. Използва се за изработка на най-различни предмети.
+itemDesc_Silicon=Изключително универсален материал, който често се среща като кварц. Вече не е толкова разпространен. Използва се за изработка на най-различни предмети.
+itemDesc_Anxiolytic=Възстановява 15 психика. Приемането отнема няколко секунди. Използва се за лечение на определени състояния в лечебницата.
+itemDesc_DivingKnife_LongBlade=Увеличава обсега на атаката на ножа за гмуркане.
+itemName_Blueprint_Flare=Сигнална ракета
+itemName_Blueprint_Flashlight=Фенер
+itemName_Blueprint_Flashlight_2=По-силен фенер
+itemDesc_Blueprint_Flashlight=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_Blueprint_DivingKnife_LongBlade=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_Blueprint_OxygenTank_2=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_Blueprint_Flashlight_2=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_WebCoral=Лепкав, лек, изключително гъвкав и много здрав въглероден композит. Използва се за изработка на усъвършенствана екипировка.
+itemDesc_Carbon=Разпространен материал, който обикновено се намира в Антрацита. Използва се за изработка на най-различни предмети.
+itemDesc_NeedleGun_LargeChamber=Увеличава пълнителя на пистолета за стрелички с 6.
+itemDesc_OxygenTank_2=Увеличава капацитета на кислородната бутилка.
+itemDesc_OxygenTank_3=Увеличава капацитета на кислородната бутилка.
+itemDesc_Rucksack_2=Увеличава товароносимостта на раницата.
+itemName_Blueprint_Rucksack_2=Разширение за раницата
+itemDesc_Blueprint_Rucksack_2=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_Blueprint_Rebreather=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_Blueprint_SerratedDart=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_SerratedDart=Назъбена стреличка с по-високи щети и допълнителен режещ ефект. Усъвършенствани боеприпаси за пистолета за стрелички.
+itemDesc_NeedleGun=Създаден да изстрелва тънки снаряди с висока скорост под вода. Изисква боеприпаси, за да работи.
+itemDesc_ReinforcedSuit=Смес от метал, силиций, въглерод и желязо прави този костюм изключително устойчив. Получаваните щети по здравето са с 30% по-малко.
+itemDesc_FoodCrate=Кашон с неидентифицирана храна. Дано още става за ядене.\n\n+10 хранене
+
+# Item descriptions: second gameplay batch
+itemDesc_WhiteDrug=Удвоява товароносимостта до края на гмуркането. Възможни са непредвидени последствия.
+itemDesc_BlueDrug=Неутрализира разхода на кислород за 30 сек. Възможни са непредвидени последствия.
+itemDesc_RedDrug=Неутрализира щетите за 10 сек., но не спира довършващите удари. Възможни са непредвидени последствия.
+itemDesc_ElectricPulseGenerator=При активиране за кратко генерира електрическо поле с малък радиус, което кара дребните врагове да бягат. Някои по-малки организми се разлагат при контакт. Изразходва заряд.
+itemDesc_Rebreather=Подобрява регулацията на налягането, което позволява на водолаза да премине границата от 50 метра дълбочина, без разходът на кислород да се увеличи.
+itemDesc_Flashlight_2=Увеличава обхвата на фенера.
+itemDesc_Fins=Обикновени плавници. Позволяват плавно движение под вода.
+itemDesc_ToxinFilteringSuit=Водолазен костюм със специални филтриращи системи, които не допускат токсините във водата да проникнат.
+itemDesc_OxygenSurplus=Може да възстанови до 100 кислород по време на гмуркане. Тежък предмет.
+itemDesc_CorrosiveDart=Покрита с киселина стреличка, която може да прорязва слаб метал и плът. Може да разтваря определени препятствия. Усъвършенстван боеприпас за пистолета за стрелички.
+itemDesc_PoisonSpore=Втвърдена смес от отровни спори, произведени от Чумоцвет. Това шепот ли беше…? Използва се за изработка на усъвършенствани предмети.
+itemDesc_Plastic=Изкуствен материал, от който не са успели да се отърват нито смазващата дълбочина, нито свръхестествените сили. Използва се за изработка на усъвършенствани предмети.
+itemDesc_Lithium=Изключително лек метал с висок електрохимичен потенциал. Използва се за изработка на усъвършенствана електроника, особено на устройства, които изискват батерии.
+itemDesc_UnderwaterScooter=Позволява по-бързо придвижване в дълбините. Изразходва заряд.
+itemDesc_TranquilizingDart=Сместа върху тази стреличка успокоява повечето същества за различно време в зависимост от размера им. Усъвършенстван боеприпас за пистолета за стрелички.
+itemDesc_LeechBlood=Неизвестен орган, от който изтича гъста, тъмна течност. Отраженията на хора по повърхността му изглеждат неприятно изкривени. Използва се за органични, медицински и свръхестествени изработки.
+itemDesc_Heirloom=Красив спомен от отминалото. Носи носталгия и утеха.\n\n+10 морал
+itemDesc_RainRot=Почерняла тъкан, попила големи количества Черен дъжд. Вече не би трябвало да е опасна, но не се взирай в нея твърде дълго. Използва се за най-различни изработки.
+itemDesc_ShinyCoin=Красива монета от стария свят. Паричната ѝ стойност отдавна е изчезнала, но сантименталната — не.
+
+# Trait descriptions: first gameplay batch
+traitDesc_Hypochondriac=Докато се гмурка, 10% от щетите по здравето засягат и психиката; лечебните балсами възстановяват двойно повече здраве.
+traitDesc_Swimming_1=+5% към скоростта на плуване
+traitDesc_Swimming_2=+10% към скоростта на плуване
+traitDesc_Swimming_3=+15% към скоростта на плуване; при натискане за рязко движение получава начален тласък (5 сек. възстановяване)
+traitDesc_Swimming_4=+20% към скоростта на плуване; при натискане за рязко движение получава начален тласък (5 сек. възстановяване)
+traitDesc_GunHandling_1=+30% щети от пистолета за стрелички
+traitDesc_GunHandling_2=+60% щети от пистолета за стрелички
+traitDesc_GunHandling_3=+90% щети от пистолета за стрелички; пропуснатите стрелички могат да се приберат
+traitDesc_HardWorking=+10% към кислорода, здравето, психиката и товароносимостта
+traitDesc_Sobriety=-1 към поддръжката на храната и морала
+traitDesc_Cripple=-30% към скоростта на плуване
+traitDesc_Claustophobic=Бавно губи психика в тесни пространства
+traitDesc_Coward=+15% към скоростта на рязкото движение; бавно губи психика, когато наблизо има врагове
+traitDesc_SelfImprovement=Замени всяка характеристика от I ранг с друга по твой избор
+traitDesc_Apnea_1=-10% разход на кислород
+traitDesc_Apnea_2=-20% разход на кислород
+traitDesc_Apnea_4=-40% разход на кислород; +10 сек. до смъртта след изчерпване на кислорода
+traitDesc_Obsessive=-30% товароносимост; предметите тежат с 10% по-малко за всеки еднакъв предмет, който носиш
+traitDesc_Dextrous=Времето за възстановяване на инструментите намалява с 1 секунда
+traitDesc_ShortSighted=Радиусът на зрението е значително намален
+traitDesc_Unstable=Може да нарани себе си или други оцелели, когато не се гмурка
+traitDesc_BloodFrenzy=Възстановява част от здравето и психиката при убийство на враг; получаваните щети са с 25% повече
+traitDesc_Mechanics_1=Когато работи в Работилницата, има +20% шанс да запази 1 произволен ресурс при изработка
+traitDesc_RitualPractice_1=Когато работи в Мемориала, изгарянето на предмет дава +2 храна и морал в лагера
+traitDesc_RitualPractice_2=Когато работи в Мемориала, изгарянето на предмет дава +3 храна и морал в лагера
+traitDesc_Bookkeeping_4=Когато работи в Кметството, максималните храна и морал стават 150 вместо 50, а новите новобранци се чувстват Благодарни през първите си 5 дни
+traitDesc_Medecine_2=Когато работи в Лечебницата, отключва „Лекувай тяло и ум“ и „Излекувай всички състояния“
+traitDesc_AdrenalineRush=+15% към скоростта на плуване при здраве под 25%; +15% към скоростта на плуване при психика под 25%
+traitDesc_MarineEngineering_1=-20% разход на заряд за електронни устройства
+traitDesc_MarineEngineering_3=-40% разход на заряд за електронни устройства
+traitDesc_Survivalist_1=Дава 0,5 храна за всеки събран органичен материал
+traitDesc_Survivalist_2=Дава 1 храна за всеки събран органичен материал
+traitDesc_Hunter_1=Обхватът на откриване на врагове е намален с 10%
+traitDesc_Hunter_2=Обхватът на откриване на врагове е намален с 15%
+traitDesc_ImaginaryFriend=-1 към поддръжката на храната и морала
+traitDesc_DroughtBlessed=Имунен към дъждовната зараза, +30 здраве
+traitDesc_Fishing_2=Когато работи в Рибарската колиба, могат да се ловят по-редки предмети
+traitDesc_Fishing_3=Когато работи в Рибарската колиба, могат да се ловят по-редки предмети. Добивът от риболов е увеличен до 2 на ден, включително за мрежите
+traitDesc_Calm=Ниският морал в лагера не нанася щети на психиката
+traitDesc_Serene=-50% разход на кислород в покой
+traitDesc_Masochistic=+30% получавани щети; 10% от загубеното здраве се възстановява като психика
+traitDesc_IronLungs=Рязкото движение не изразходва допълнителен кислород
+traitDesc_MartialArts_1=+50% щети с ножа
+traitDesc_MartialArts_2=+100% щети с ножа
+traitDesc_MartialArts_3=+150% щети с ножа; атаките с нож имат по-голям обхват и по-широка дъга
+itemName_AlbinoSanityLeech=Албиносна пиявица на психиката
+deathMotive_spider=Онова, което пълзи из нивите, погуби {name}.
+deathMotive_locust=Скакалецът пречупи тялото на {name} с атаките си.
+deathMotive_Claustophobic=Психиката на {name} се задуши от клаустрофобия и угасна.
+deathMotive_ExpeditionFailed={name} не се върна от експедиция.
+conditionDesc_BrokenRib=+50% към разхода на кислород
+conditionDesc_Hemorrhage=Бавно губи здраве по време на гмуркане и получава щети с всеки изминал ден
+conditionDesc_PoppedShoulder=Не може да използва пистолета за стрелички
+conditionDesc_AlgaeSting=+60% получавани щети по здравето
+conditionDesc_Terrified=При вида на враг разходът на кислород се увеличава със 100% за 3 секунди (ефектът не се натрупва)
+conditionDesc_Missing=Къде е?
+conditionDesc_Grateful=Не се изразходват морал и храна за поддръжка
+conditionDesc_WellFed=+10% здраве, +10% кислород
+conditionDesc_Bitter=Може да предизвика хаос в лагера; -30% психика
+conditionDesc_HeatControl=Обхватът за откриване на врагове е намален с 20%
+conditionDesc_Frail=При здраве под 60: 0% шанс за избягване на някои отрицателни състояния и събития.
+conditionDesc_Impervious=При здраве над 200: 50% шанс за избягване на някои отрицателни състояния и събития. +8% шанс за успех на експедицията.
+conditionDesc_Sensitive=При психика под 60: 0% шанс за избягване на някои отрицателни състояния и събития.
+conditionDesc_Balanced=При психика под 200: 25% шанс за избягване на някои отрицателни състояния и събития. +5% шанс за успех на експедицията.
+conditionDesc_Adamantine=При психика над 200: 50% шанс за избягване на някои отрицателни състояния и събития. +8% шанс за успех на експедицията.
+conditionDesc_AlbinoLeechEuphoria=Поддръжката на морала е намалена до 0
+conditionDesc_PuncturedLung=Не може да се гмурка
+conditionDesc_BrokenVertebra=-50% товароносимост
+conditionDesc_Concussion=-30% скорост на плуване
+conditionDesc_Apathetic=-30% към кислорода, здравето, психиката и товароносимостта
+conditionDesc_HearingVoices=Всеки ден губи произволно количество психика
+conditionDesc_RainBlight=Оцелелият е неспособен да действа. След няколко дни ще се превърне в Докоснат от Дъжда, освен ако не бъде пречистен в Лечебницата. Пречистването ще му причини болка.
+conditionDesc_Attuned2Elders=+50% психика
+conditionDesc_Nurtured=+20% здраве, +20% кислород
+conditionDesc_Satisfied=+10% психика, +10% товароносимост
+conditionDesc_Hopeful=+20% психика, +20% товароносимост
+conditionDesc_Edema=Не може да използва инструменти
+conditionDesc_Depressed=Оцелелият е неспособен да действа и може да предизвика хаос в лагера
+conditionDesc_Respected=Поддръжката на морала е намалена до 0; възстановява 10 психика всеки ден
+conditionDesc_Loathed=Поддръжката на морала е удвоена; губи 10 психика всеки ден
+conditionDesc_NewOccupation=Наскоро е сменил назначението си; нова смяна ще причини Умора днес и утре
+conditionDesc_Fatigued=Оцелелият не носи ползи, когато работи в сграда, не може да се гмурка и не може да участва в експедиции
+conditionDesc_SuperdenseMuscle=+30% скорост на плуване
+conditionDesc_BloatedLungs=+50% кислород
+conditionDesc_TemporaryAnalgesia=-50% получавани щети по здравето
+conditionDesc_HyperFocused=Враговете се движат с 30% по-бавно
+conditionDesc_SuppressedAmygdala=-50% получавани щети по психиката
+conditionDesc_Dismissed=Оцелелият е отстранен от лагера и ще си тръгне утре, освен ако не бъде върнат обратно
+conditionDesc_OnExpedition=Оцелелият е на експедиция
+conditionDesc_InInfirmary=Получава лечение в Лечебницата
+conditionDesc_Strong=При здраве под 200: 25% шанс за избягване на някои отрицателни състояния и събития. +5% шанс за успех на експедицията.
+conditionDesc_Studying=Оцелелият получава допълнителни 100 опит всеки ден.
+conditionDesc_ThinkingAboutGaming=Поддръжката на храната е намалена до 0
+conditionDesc_Insane=Психиката е достигнала 0 и не може да бъде възстановена.\nРазходът на кислород е удвоен, а щетите по психиката вместо това изразходват кислород.\nНе може да работи в сгради и може да предизвика хаос.\nПоддръжките са 0.
+conditionDesc_Addicted=Оцелелият е неспособен да действа и губи 10 психика всеки ден
+conditionDesc_GuidingSpirit=+15% шанс за успех на следващата експедиция, в която участва оцелелият.
+conditionDesc_GuardianSpirit=Следващия път, когато получи смъртоносни щети по време на гмуркане, оцелелият ще оцелее с 1 здраве
+conditionDesc_MentorSpirit=Опитът, получен до следващия ден, е удвоен
+conditionDesc_MotherlySpirit=Следващия път, когато получи отрицателно състояние, вместо него ще изгуби това състояние
+conditionDesc_FatherlySpirit=+50% товароносимост по време на следващото гмуркане
+conditionDesc_OtherworldlySpirit=Следващия път, когато оцелелият би загинал от изчерпване на кислорода, кислородът му ще се възстанови напълно, но той ще полудее
+conditionDesc_MakerSpirit=При следващото гмуркане с този оцелял всички дъски ще бъдат заменени с жива дървесина
+conditionDesc_CuriousSpirit=Следващия път, когато оцелелият получи състоянието „Ново назначение“, той ще стане Благодарен за един ден
+conditionDesc_TeachingSpirit=Следващият новобранец без състоянието „Отстранен“ ще получи 50% от опита на този оцелял
+conditionDesc_SharingSpirit=Следващият новобранец без състоянието „Отстранен“ ще получи произволна положителна или неутрална характеристика от този оцелял
+conditionDesc_FanaticSpirit=Следващия път, когато оцелелият донесе идол, ще качи ниво
+conditionDesc_DarkSpirit=По време на следващото гмуркане убийствата ще дават на този оцелял +100% опит
+conditionDesc_MendingSpirit=Следващото лечение на този оцелял в Лечебницата ще бъде приложено незабавно
+conditionDesc_NostalgicSpirit=При следващото гмуркане с този оцелял ще бъдат намирани повече спомени
+conditionDesc_CreativeSpirit=При следващото гмуркане с този оцелял ще бъдат намирани повече минерали
+conditionDesc_NurturingSpirit=При следващото гмуркане с този оцелял ще бъде намирана повече храна
+conditionDesc_RainSpirit=При следващото гмуркане с този оцелял дух на Дъжда ще го отведе до следващия идол
+conditionDesc_Mutilated=Не може да извършва рязко движение; -30% товароносимост
+conditionDesc_Ravenous=Оцелелият е неработоспособен и може да предизвика хаос в лагера.
+condition_FanaticSpirit=<link="conditionDesc_FanaticSpirit">Фанатичен дух</link>
+condition_Ravenous=<link="conditionDesc_Ravenous">Прегладнял</link>
+itemName_JournalPage_0=Дневников запис
+itemName_JournalPage_1=Дневников запис
+itemName_JournalPage_2=Дневников запис
+itemName_JournalPage_3=Дневников запис
+itemName_JournalPage_4=Дневников запис
+itemName_JournalPage_5=Дневников запис
+itemName_JournalPage_6=Дневников запис
+itemName_JournalPage_7=Дневников запис
+itemName_JournalPage_8=Дневников запис
+itemName_JournalPage_9=Дневников запис
+itemName_JournalPage_10=Дневников запис
+itemName_JournalPage_11=Дневников запис
+itemName_JournalPage_12=Дневников запис
+itemDesc_JournalPage_0=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_1=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_2=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_3=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_4=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_5=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_6=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_7=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_8=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_9=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_10=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_11=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemDesc_JournalPage_12=Страница, откъсната от стар дневник.\n\nИма неестествено усещане, сякаш не принадлежи на този свят. Намерена е напълно суха в дълбините на Бездънните води.\n\nКой ли я е написал?
+itemName_Blueprint_Beacon=Маяк
+itemDesc_Blueprint_Beacon=Чертеж с информация за конструкцията на дадена технология.
+itemName_Blueprint_OxygenSurplus=Излишък от кислород
+itemDesc_Blueprint_OxygenSurplus=Чертеж с информация за конструкцията на дадена технология.
+itemDesc_Fins_Mwk=Дава +10% скорост на плуване.
+itemDesc_Rucksack_Mwk=Увеличава товароносимостта на раницата.
+itemDesc_OxygenTank_Mwk=Увеличава капацитета на кислородната бутилка.
+itemDesc_LivingSuit=Симбиотичен зловещ паразит, който защитава гостоприемника си на всяка цена. Когато носещият би получил смъртоносни щети, вместо това губи психика. Здравето му постоянно се възстановява според липсващата психика.
+itemDesc_FinGenerator=Движението на плавниците пасивно презарежда електрониката по време на плуване.
+itemName_Blueprint_Rebreather_2=Ребридер Mk. 2
+itemDesc_Blueprint_Rebreather_2=Чертеж с информация за конструкцията на дадена технология.
+itemName_Blueprint_BloodGates_1=Порти на кръвта I
+itemDesc_IdolOfSeverance=Зловещ идол, олицетворяващ раздялата.
+itemDesc_Gold=Ценен метал, зловещо подходящ за свръхестествена изработка. Може би породените от Дъжда и хората не са толкова различни… Използва се за изработка на усъвършенствани и свръхестествени предмети.
+itemDesc_Blueprint_Rucksack_3=Чертеж с информация за конструкцията на дадена технология.
+itemEffect_DroughtCarp=Избраният от теб оцелял получава характеристиката „Благословен от сушата“.
+itemEffect_EerilyFunctionalGamingConsole=Всички оцелели получават състоянието „Мисли за игри“ за 1 ден.
+itemDesc_NA=Все още не си събрал този ресурс.
+itemDesc_Extractor=Пасивно генерира ресурси всеки ден. Извлечените ресурси зависят от мястото, на което го разположите. Запазва се между гмурканията.
+itemName_Blueprint_Extractor=Екстрактор
+itemDesc_Blueprint_Extractor=Чертеж с информация за конструкцията на дадена технология.
+itemName_LivingWood=Жива дървесина
+itemDesc_LivingWood=Просто дърво. Или може би не… Използва се за подобряване на сгради до по-високи нива.
+itemName_Gold=Злато
+itemName_BloodCrystal=Кръвен кристал
+itemDesc_BloodCrystal=Кръвта на неизвестно същество, кристализирала по също толкова неизвестен начин. Уникалните ѝ свойства я превръщат в основа на зловещата изработка.
+itemName_InsectoidBlood=Кръв на насекомоподобно
+itemDesc_InsectoidBlood=Тази воняща, подобна на жлъчка течност сякаш задвижва някои от израсналите до чудовищни размери насекоми в Бездънните води. Можем да я използваме, макар че не ни се иска. Използва се за органична и зловеща изработка.
+itemName_Rainium=Рейниум
+itemName_RainScale=Люспа от Дъжда
+itemName_DefaultSuit=Водолазен костюм
+itemDesc_DefaultSuit=Този стар водолазен костюм е бил носен от безброй водолази през годините. Няма никакви особени свойства, но без него никой не би издържал дълго в Бездънните води.
+itemName_Bass=Костур
+itemName_Salmon=Сьомга
+itemName_CorruptedBlobfish=Покварена риба-капка
+itemDesc_Salmon=Мазна, изключително хранителна риба.
+itemDesc_Bass=Най-разпространената риба в тези води.
+itemName_EldritchGiantPuffer=Зловеща гигантска риба-балон
+itemDesc_AlbinoSanityLeech=След като бъде погълната, тази рядка пиявица на психиката предизвиква дълбока, но краткотрайна еуфория.
+itemName_DwarfStalker=Преследвач джудже
+itemName_YoungGoldBoonfish=Млада златна риба-благодетел
+itemName_DroughtCarp=Шаран на сушата
+itemName_RustyBauble=Ръждясала дрънкулка
+itemName_Geode=Геода
+itemName_UnnaturalSculpture=Неестествена скулптура
+itemName_UnknownMetalMirror=Странно метално огледало
+itemName_LifelikeFigurine=Реалистична фигурка
+itemName_EldritchIdolFragment=Фрагмент от зловещ идол
+itemDesc_CorruptedBlobfish=Това създание е било докоснато от Дъжда. Огромното му тяло изглежда хранително, но е отвратително до неописуемост.
+itemDesc_DroughtCarp=Това създание не е породено от Дъжда, а от нещо съвсем друго.
+itemDesc_EldritchGiantPuffer=Тази свръхестествено хранителна риба е едно от случайно полезните порождения на Дъжда.
+itemDesc_YoungGoldBoonfish=Върхът на благословиите на Дъжда — тази риба може да повдигне духа на целия лагер.
+itemName_Fins_2=Хидродинамични плавници
+itemDesc_Fins_2=Удължаването на плавниците и увеличаването на гъвкавостта на материала им осигуряват по-силна тяга. +10% скорост на плуване.
+itemName_Blueprint_Fins_2=Хидродинамични плавници
+itemDesc_Blueprint_Fins_2=Чертеж с информация за конструкцията на дадена технология.
+itemName_StingerSuit=Костюм против ужилване
+itemDesc_StingerSuit=Прави носещия напълно имунизиран срещу ужилванията на отровните водорасли.
+itemDesc_Blueprint_Flashlight_3=Чертеж с информация за конструкцията на дадена технология.
+itemName_Blueprint_Flashlight_3=Окултен фенер
+itemName_Flashlight_3=Окултен фенер
+itemDesc_Flashlight_3=Увеличава обхвата на фенера и забавя осветените същества.
+itemEffect_AlbinoSanityLeech=Всички оцелели получават състоянието „Еуфория от албиносна пиявица“ за 1 ден.
+itemEffect_DwarfStalker=Избраният от теб оцелял получава произволна характеристика за мутация.
+itemEffect_YoungGoldBoonfish=Всички оцелели получават 300 опит.
+itemEffect_Geode=Съдържа 2 произволни минерала.
+itemEffect_LifelikeFigurine=Избраният от теб оцелял получава характеристиката „Въображаем приятел“.
+itemEffect_EldritchIdolFragment=Избраният от теб оцелял получава характеристиката „Благословен от Дъжда“.
+bestiaryName_BoonFish=Риба-благодетел
+bestiaryDescription_BoonFish=Тези малки риби лесно се плашат, но ако ги убиеш, могат да ти дарят могъщи благословии.
+bestiaryName_NA=Непознато същество
+bestiaryDescription_NA=Все още не си срещал това същество.
+bestiaryName_RainTouched=Докоснат от Дъжда
+bestiaryDescription_RainTouched=Онези, които са докоснати от Черния дъжд, в крайна сметка се връщат във водата и се превръщат в Докоснати от Дъжда. Те са изключително агресивни и активно търсят живи хора, за да ги наранят и удавят.\n\nСрещат се в Плитчините и Западния кладенец.\nНе е разумно да се биеш с тях с нож.
+bestiaryName_SanityLeech=Пиявица на психиката
+bestiaryDescription_SanityLeech=Тези малки създания се впиват в плячката си и бързо изсмукват цялата ѝ психика.\n\nСрещат се в повечето биоми, често съсредоточени в определени области, като Корабокрушението в Плитчините.
+bestiaryName_Locust=Скакалец
+bestiaryDescription_Locust=Тези потайни насекоми, израснали до чудовищни размери, могат да скачат с такава сила, че да строшат кости.\n\nСрещат се само в горната част на Източните ниви.\nПистолетът за стрелички лесно ще се справи с тях.
+bestiaryName_KillerAlgae=Убийствени водорасли
+bestiaryDescription_KillerAlgae=Тези агресивни растения използват пипала, за да впръскват в жертвите си големи дози парещи, обездвижващи токсини.\n\nСъсечи ги с нож.
+bestiaryName_Plaguebloom=Чумно растение
+bestiaryDescription_Plaguebloom=Тези гъбични колонии непрестанно отделят гъсти токсични газове.\n\nКостюмът за филтриране на токсини ще ти помогне да дишаш безопасно.
+bestiaryName_Stalker=Преследвач
+bestiaryDescription_Stalker=Тези едри хищници обитават само най-тъмните области и са неистово привлечени от светлината.\n\nСигналните ракети могат да ги прогонят.
+bestiaryName_FacelessShark=Безлика акула
+bestiaryDescription_FacelessShark=Тези гигантски хищници побесняват при вида на кръв. Светкавичните им атаки могат да строшат тялото на всеки водолаз.\n\nМоже би единствената ти възможност е да се скриеш.
+bestiaryName_Spider=Онова, което пълзи
+bestiaryDescription_Spider=Най-опасният хищник на Източните ниви, способен да погълне всяко живо същество, което броди из територията му.\n\nСтой далеч от коралите му.
+bestiaryName_Despair=Сирена на отчаянието
+bestiaryName_RainChord=Пазачът на гробището
+bestiaryName_BeaconJellyfish=Пътеводна медуза
+bestiaryName_HandRain=Ръка на Дъжда
+bestiaryName_Sunless=Мрачният
+bestiaryName_RainPsalmist=Псалмопевец на Дъжда
+journalPageText_19=Дъждът... спря.\nАз излязох първи от колибата си, земята се тресеше под краката ми.\nИ го видях... божествения Дъждотворец.\nСилуетът му се простираше от морето до небето, а водата кипеше под сянката му.\nО, Дъждотворецо... не си ме изоставил.
+journalPageText_20=Силуетът на Дъждотвореца избледня след по-малко от час...\nДотогава всички бяхме излезли, коленичили, ридаещи, запленени от присъствието му.\nКогато изчезна и земята се успокои, морското дъно се беше срутило в дупка...\nТъмен подводен ров, разцепващ морето около нас — Бездънните води.
+journalPageText_21=След края на Черния дъжд и с примитивна екипировка за гмуркане те започват да търсят храна в околните води.\nИзбягват Бездънните води... Страх ги е от тях.\nСамо аз виждам в тях дара, с който Дъждотворецът ни е благословил.\nНяма да намерят нищо... докато не почетат Дъждотвореца.
+journalPageText_22=Започват да осъзнават... там няма нищо.\nДъждотворецът ни е дарил Бездънните води с причина.\nЗапочваме да подготвяме експедиция в рова.\nВиждаш ли, Джо... все пак бях прав.
+journalPageText_0=Дъждът няма да спре.\nВсяка капка е гъста и черна.\nСякаш тази безкрайна беззвездна нощ.
+journalPageText_1=Не позволявай на дъжда да те докосне.\nВсяка капка носи безкрайна редица от шепоти...\nи Жаждата.
+journalPageText_2=Докоснатите от Дъжда остават безучастни няколко дни.\nСлед това идва агонията.\n„Вода... вода... вода…“\nНикакво количество вода не може да утоли Жаждата.
+journalPageText_3=Жажда. Промяна. Насилие.\nСтой далеч от Докоснатите от Дъжда.\nЩе разкъсват твоята плът или собствената си в търсене на вода.
+journalPageText_4=Няма ги.\nНяколко се виждат да плават по очи в близкото езерце. Останалите са изчезнали.\nРазкъсаните тела на жертвите им са единственото доказателство, че са били там.
+journalPageText_5=Водата се покачва стремглаво.\nЕзерцето вече прилича на езеро.\nПовърхността му е осеяна с подутите трупове на Докоснати от Дъжда.\nТелата никога не се задържат дълго... Чудя се къде отиват.
+journalPageText_6=Сега е ужасно студено, но езерото няма да замръзне.\nЖивотните изчезнаха. Растителността почти не е засегната.\nУчимо се да живеем с Дъжда.\nЖивите още се държат, колкото и малко да са.\nСъжалявам... и Весела Коледа.
+journalPageText_7=Дори покрити с найлонови чували, придвижването под дъжда е невероятно опасно.\nВсе пак няколко от нас успяхме да се скрием в този огромен склад.\nМястото е претъпкано с консерви. Нед го нарече „рай за апокалипсиса“.\nКълна се, не понасям вкуса им.
+journalPageText_8=Нед измисли тази нова идея за „дъждовен щит“, за да можем да се придвижваме.\nИзискано име за ходене с найлонов навес над главата.\nНо е прав. Трябва да се махаме...
+journalPageText_9=От няколко месеца вървим към планините, бягайки от покачващите се води.\nНапредваме бавно, но по-топлото време би трябвало да ни помогне да ускорим крачката.
+journalPageText_10=Придвижването под дъжда е ужасяващо.\nДъждовните щитове помагат, но всяка седмица губим хора. Нужно е само едно-единствено падане на капка.\nХраната е оскъдна.
+journalPageText_11=Мисля, че Нед е бил докоснат вчера вечерта, но не иска да си признае. Какво да правя...?\nВиждаме планините оттук, но те сякаш изобщо не се приближават.\nКолкото и да се опитвам, наистина не понасям консервите.
+journalPageText_12=Планините най-сетне изглеждат по-близо. Според мен ще стигнем до тях след няколко дни.\nНед ставаше все по-агресивен. Значи все пак е бил докоснат...\nНаложи се да се погрижа за него. Не ми остави избор.\nНамерих по-добра храна.
+journalPageText_13=Джо ме гледа странно, откакто се разправих с Нед.\nСигурно знае, че нямах избор.\nТакъв един високомерен праведник, нали...\nВсички сме в една лодка и всички трябва да ядем.
+journalPageText_14=Две дузини от нас участваха в тази експедиция. Четирима стигнаха до върха на планината.\nТук започваме отначало. Дъждовните щитове ще ни помагат, докато строим.\nДжо е най-силният, но знам, че аз трябва да ръководя този лагер.
+journalPageText_15=Събирането на материали под Дъжда е мъчително бавно, но укритията започват да придобиват форма.\nВсички се затвориха в себе си и не съм сигурен на кого да се доверя.\nИ тези проклети консерви...
+journalPageText_16=Джо често излиза да търси нови оцелели.\nОт време на време се връща с още една уста за хранене...\nВодата започна да се покачва над подножието на планината ни.\nСкоро светът ще бъде един безкраен океан.
+journalPageText_17=Вече сме напълно устроени. Две дузини от нас, заедно с всички експедиции, които онзи стар негодник поведе.\nДжо явно обича да ръководи, макар да не го казва...\nВече е кристално ясно, че сме съперници.
+journalPageText_18=Това ли е животът сега? Полудявам. Не знаех, че ще се стигне дотук...\nВърхът на планината ни е остров. След няколко месеца ще сме под водата.\nТака или иначе проклетите консерви свършват, така че дотогава труповете ще започнат да се трупат...
+journalPageText_23=Бездънните води са... истинско чудо. Точно както очаквах.\nРазбира се, някои не се връщат...\n...но онези, които се връщат, носят всичко необходимо. Припаси, материали, храна...\nХрана... За тях тя вече не е проблем, но за мен...
+journalPageText_24=Отдавна изследваме Бездънните води...\nРазбираме екосистемата им и дори започнахме да я картографираме.\nНепрестанно ги моля да носят обратно зловещите идоли, които намират, но те отказват...\nДъждотворецът не одобрява това.
+journalPageText_25=Джо започна да задава въпроси за изчезналите трупове на нашите другари...\nДали знае...?\nАх... има ли значение? Единственото одобрение, от което се нуждая, не е неговото.
+journalPageText_26=За първи път от три години днес валя...\nКазах им! Казах им да донесат проклетите идоли...\nО, Дъждотворецо, прости им... Прости ми...\nНяма повече плодове, зверове или хляб...\nЗаклевам се, няма да го направя отново.
+journalPageText_27=Джо ме хвана да ям днес. Видях го как ме гледа!\nПроклет да е! Той не разбира! Черният дъжд отново се излива...\nНе мога да си позволя да разочаровам Дъждотвореца...\nНека приливите ги отнесат!
+journalPageText_28=Защо Джо не предприема нищо...?\nМислех, че ще ме прогони... Вместо това само ме гледа.\nВече нямам достъп до труповете. Дъждотворецът няма да остави това без последствия.\nМоля се всички да изчезнат...\nНека приливите ги разкъсат!
+journalPageText_29=Най-сетне! Мислеха, че са ме притиснали в ъгъла, но Дъждотворецът беше на моя страна!\nБурята му премина през лагера. Всички са мъртви!\nОще не сме намерили трупа на Джо... но съм сигурен, че и той е мъртъв.\nСлава на Дъждотвореца. Новодошлите вече ще ми се подчиняват!\nТе ще събират идолите... а аз ще се храня.
+dialogue_Intro_0=Тъй, знаех си, че ще наминеш.
+dialogue_Intro_1=Последната буря направо помете лагера.<br>Отнесе мнозина от нашите.
+dialogue_Intro_2=Помете и водача ни — нека приливите отнесат душата му.
+dialogue_Intro_3=Значи сега ти командваш.<br>Всички сме в твоите ръце, искаме или не.
+dialogue_Intro_4=Хранителните запаси са свършили, а на празен стомах хората не могат да мислят трезво.
+dialogue_Intro_5=Най-добре да се потопим в Бездънните води и да видим дали днес са благосклонни.
+dialogue_Intro_6=Защо не изпратим стария Солтман? Горкият не е останал с много за даване...
+dialogue_AfterDive1_0=Старият вкаменелост се върна цял, а?<br>Дълбините май са решили да бъдат милостиви...
+dialogue_AfterDive1_1=Тази сутрин акостира прясно месо. Ще седи край онзи огън, който някога наричахме <color=#00FFBF>Маяка</color>...
+dialogue_AfterDive1_2=Сложи му <color=#00FFBF>нож</color> и го прати долу да ни донесе нещо за ядене, става ли?
+dialogue_AfterDive1_3=Докато си там, кажи му да претърси <color=#00FFBF>разрушената сграда</color> на изток, близо до повърхността. Говори се, че вътре има хубав <color=#00FFBF>чертеж</color>.
+dialogue_AfterDive1_4=Трябва да си изкарват прехраната. О, и гледай да стоят далеч от <color=#00FFBF>Докоснатите от Дъжда</color> — от това няма връщане.
+dialogue_AfterDive2_0=Усещаш ли го... погледът на Дъждотвореца... наблюдава, приближава се, бавно като прилива.
+dialogue_AfterDive2_1=Остават само няколко седмици, докато Дъждотворецът ни удави в своята присъда.<br>Време е да докажем вярата си.
+dialogue_AfterDive2_2=Търси <color=#00FFBF>Неговите идоли</color> и ги положи на Олтара.
+dialogue_AfterDive2_3=Първият се намира в разрушена сграда, отдавна погълната от дълбините. Слушай за сърдечни удари.
+dialogue_AfterDive2_4=Поднасяй истински <color=#00FFBF>дарове</color> на <color=#00FFBF>Олтара</color> и може би Неговата благословия ще задържи Потопа.
+dialogue_Death_RainTouched_0=Казах ти — най-добре стой далеч от онези <color=#00FFBF>Докоснати от Дъжда</color>...
+dialogue_Death_RainTouched_1=Смелостта няма да те спаси в Бездънните води. Когато видиш някой от заразените, плувай бързо и не поглеждай назад.
+ftuePopup5_Countdown_title=Отброяването до Потопа
+ftuePopup5_Countdown_countdown=Когато <color=#00FFBF>Отброяването</color> достигне 0, Дъждотворецът ще залее цялата суша и твоето начинание ще приключи.
+ftuePopup5_Countdown_altar=<color=#00FFBF>Олтарът</color> ти позволява да поднасяш <color=#00FFBF>дарове</color>, за да трупаш <color=#00FFBF>Поклонение</color> и да забавяш <color=#00FFBF>Отброяването</color>.
+ftuePopup5_Countdown_passDay=Един ден изминава при <color=#00FFBF>гмуркане</color> или при използване на бутона <color=#00FFBF>Пропусни деня</color>. По друг начин времето не напредва.
+offerings_tooltip=Поднасяй дарове, за да запълваш скалата на Поклонението и да увеличаваш Поклонението.\n\nВсяко Поклонение добавя 1 ден към Отброяването.\n\nПо-високото Поклонение укрепва връзката ти с Дъждотвореца и ти позволява да избираш нови изходи в някои събития.\n\nМожеш да поднасяш по един дар на ден.
+label_worship=Поклонение
+bloodTribute_worshipGauge=Поклонение: {value}
+unitLabel_kg=кг
+stat_health=Здраве
+stat_sanity=Психика
+stat_oxygen=Кислород
+stat_weight=Товароносимост
+survivorLevel=Ниво {value}
+days={value} ден/дни
+survivorXp=Опит: {value}
+state_active=активно
+state_inactive=неактивно
+survivorTier=Ранг {tier}
+attribute_HEALTH=Здраве
+attribute_OXYGEN=Кислород
+attribute_NUTRITION_UPKEEP=Поддръжка на храната
+survivorUpkeep={value}/ден
+minutes=мин.
+seconds=сек.
+menuName_DivingDeck=Палуба за гмуркане
+menuName_Workshop=Работилница
+label_he=той
+label_she=тя
+equipmentType_BACKPACK=Раница
+equipmentType_HELMET=Шлем
+equipmentType_FLASHLIGHT=Фенер
+menuName_Pause=Пауза
+label_daysRaw=ден/дни
+menuName_altar=Олтар
+menuName_townHall=Кметство
+structure_MEMORIAL=Мемориал
+label_expeditionResources=Налични ресурси
+label_maxUpgradeTier=Достигнат е максималният ранг
+label_extractorNoResources=Тук няма ресурси за извличане
+label_journals=Дневници
+label_English=Английски
+label_Continue=Продължи
+label_NewGame=Нова игра
+label_Settings=Настройки
+label_Quit=Изход
+label_General=Общи
+label_Analytics=Анализи
+label_tutorial=Урок
+label_alwaysShowCursor=Винаги показвай курсора
+label_nutrition=Храна
+label_mementos=Спомени
+btn_close=Затвори
+menuName_Dialogue=Старият Джак
+label_usableItems=Използваеми предмети
+label_ammoItems=Боеприпаси
+equipmentType_OXYGEN_TANK=Кислородна бутилка
+equipmentType_IDOL=Идол
+inputHint_craft=Изработи
+inputHint_plusOne=Добави 1
+inputHint_plusTen=Добави 10
+inputHint_minusTen=Извади 10
+inputHint_back=Назад
+inputHint_dive=Гмурни се
+inputHint_openMenu=Отвори менюто
+inputHint_nutritionIntel=Храна
+menuName_Settings=Настройки
+label_Sound=Звук
+label_Graphics=Графика
+label_Controls=Управление
+label_Fullscreen=Цял екран
+label_borderless=Без рамка
+label_windowed=В прозорец
+itemType_EQUIPMENT=Екипировка
+label_swapInteraction=Смени взаимодействието
+inputHint_equip=Екипирай
+inputHint_change=Смени
+inputHint_unequip=Свали
+btn_showMaterials=Материали
+label_days=Ден {value}
+label_campReport=Доклад за лагера
+label_notBuilt=Сградата не е построена
+inputHint_flashlight=Фенер
+label_Warning=Внимание
+menuName_Memorial=Мемориал
+menuName_infirmary=Лечебница
+menuName_library=Библиотека
+label_back=Назад
+label_allStatPointsDistributed=Всички точки са разпределени
+label_noSurvivorSelected=Няма избран оцелял
+label_offerings=Дарове
+inputHint_performOffering=Поднеси дар
+altar_alreadyPerformedAnOffering=Вече си поднесъл дар днес
+bloodTribute_offeringValue=Стойност на дара: <color=#FAC757>+{value} дни</color>
+menuAltar_lockedOfferings=За да поднасяш дарове, на Олтара трябва да работи оцелял
+ftuePopup9_Altar_offerings=Поднасяй различни <color=#00FFBF>дарове</color>, за да трупаш <color=#00FFBF>Поклонение</color> и да забавяш Потопа.
+eventChoiceDesc_theftMakeAnExample=Произволен оцелял клептоман губи характеристиката „Клептоман“, но получава „Осакатен“.
+hubRandomEventTitle_Theft=Кражба
+eventChoiceDesc_missingAMystery={survivor} вече е в неизвестност.
+hubRandomEventDesc_MissingSurvivor=<color=#00FFBF>Вече няма и следа от {survivor}</color>. Наоколо няма нищо освен вода, а всички лодки са по местата си. Къде ли може да е?\n\nДано се появи отново.
+hubRandomEventDesc_BlackRain=Днес валя...\n\n{survivors} са били докоснати и са получили Дъждовно гниене. Трябва да ги лекуваме незабавно... или да се справим с това по друг начин.
+eventChoiceDesc_blackRainNoVictims=Днес из Бездънните води ще бродят множество Докоснати от Дъжда.
+eventChoiceDesc_blackRain={survivors} са получили Дъждовно гниене. Днес из Бездънните води ще бродят множество Докоснати от Дъжда.
+hubRandomEventDesc_TakenByTheRain_noVictims={survivor} се е поддал на Дъждовното гниене. Превърнал се е в Докоснат от Дъжда и е изчезнал в дълбините.
+eventChoiceDesc_takenByTheRainNoVictims={survivor} загина.
+eventChoice_survivorIsBack=Радвам се, че се върна.
+eventChoice_survivorIsBack_noTrait=Радвам се, че се върна.
+eventChoiceDesc_survivorIsBack={survivor} вече не е Изчезнал и е получил характеристиката {trait}.
+eventChoice_preventedTheft=Добре.
+hubRandomEventTitle_SurvivorIsBack=Виж кой се върна
+eventChoice_blackRain_singular=Дъждотворецо, смили се над нас.
+eventChoice_blackRainNoVictims_celebrate=Да празнуваме. За това, че преживяхме още един ден.
+eventChoiceDesc_blackRainNoVictims_celebrate=-5 храна, +10 морал. Днес из Бездънните води ще бродят множество Докоснати от Дъжда.
+eventChoiceDesc_blackRainNoVictims_pray=Потопът се отлага с 1 ден. Днес из Бездънните води ще бродят множество Докоснати от Дъжда.
+eventChoice_takenByTheRainNoVictims=Нека приливите отнесат душите им.
+eventChoice_takenByTheRain=Нека приливите отнесат душите им.
+eventChoiceDesc_takenByTheRain={survivors} загинаха. Убийството на Докоснати от Дъжда днес носи много повече опит. Време е за мъст.
+hubRandomEventDesc_TakenByTheRain={survivor} е погълнат от Дъждовното гниене. Превърна се в Докоснат от Дъжда и изчезна в дълбините.\n\nДокато се опитваше да овладее съществото, {victim} загуби живота си.
+hubRandomEventDesc_SurvivorIsBack={survivor} се върна, откъдето и да беше.\n\nМай е с друга прическа...?
+hubRandomEventDesc_SurvivorIsBack_noTrait=Отново имаме {survivor} при нас.\n\nИзглежда невредим и непроменен, макар че не е особено разговорлив.
+eventChoiceDesc_survivorIsBack_noTrait={survivor} вече не е в неизвестност.
+hubRandomEventDesc_PreventedTheft={peacekeeper} хвана {thief} в опит за кражба и държеше крадеца под око.
+eventChoiceDesc_preventedTheft={peacekeeper} получава характеристиката „Уважаван“, а {thief} — „Презрян“.
+hubRandomEventTitle_PreventedTheft=Предотвратена кражба
+hubRandomEventTitle_TakenByTheRain=Отнесен от Дъжда
+hubRandomEventDesc_BlackRain_singular=Днес валя...\n\nДъждовното гниене засегна {survivors}. Трябва незабавно да започнем лечение... или да се справим с проблема по друг начин.
+eventChoiceDesc_blackRain_singular={survivors} е получил Дъждовно гниене. Днес из Бездънните води ще бродят множество Докоснати от Дъжда.
+eventChoice_blackRainNoVictims_pray=Нека се помолим на Дъждотвореца.
+eventChoice_blackRain_kill={killer}, погрижи се за това.
+eventChoiceDesc_blackRain_kill={victims} загина. {killer} получава завинаги характеристиката „Верен“ и +10 точки психика. Днес из Бездънните води ще бродят множество Докоснати от Дъжда.
+hubRandomEventTitle_RedMoon=Кървава луна
+hubRandomEventDesc_RedMoon=Със залеза на слънцето изгрява яркочервена луна.\n\nЛошо предзнаменование, чиято зловеща светлина напомня за цялата кръв, погълната от тези води през годините.\n\nНе можем да пренебрегнем Кървавата луна.\n\n<color=#00FFBF>Бездънните води ще бъдат Кървави при следващото гмуркане. Ще получаваш двойни щети, но убийството на достатъчно врагове ще ти донесе благословия.</color>
+eventChoice_BloodMoon_sacrifice=<color=#D083FF>[ПОКЛОНЕНИЕ 7]</color> Кръвта зове кръв.
+eventChoice_BloodMoon_offering=<color=#D083FF>[ПОКЛОНЕНИЕ 3]</color> Да поднесем дар.
+eventChoice_BloodMoon_nothing=Дъждотворецо, смили се над нас.
+eventChoiceDesc_BloodMoon_sacrifice=Животът на {survivor} е принесен в жертва.\nОстаналите присъстващи оцелели възстановяват здравето си напълно и получават завинаги +30 здраве.
+eventChoice_missingPrevented=Слава на Дъждотвореца за бдителността ни...
+eventChoiceDesc_missingPrevented={survivor} избегна състоянието „В неизвестност“.
+eventChoice_GreenMoon_nothing=Дъждотворецо, смили се над нас.
+eventChoice_GreenMoon_offering=<color=#D083FF>[ПОКЛОНЕНИЕ 3]</color> Да поднесем дар.
+eventChoice_GreenMoon_sickness=<color=#D083FF>[ПОКЛОНЕНИЕ 7]</color> Нека болестта проникне в нас.
+eventChoice_GazingMoon_watchus=<color=#D083FF>[ПОКЛОНЕНИЕ 7]</color> Гледай ни, о, Луна.
+eventChoice_GazingMoon_offering=<color=#D083FF>[ПОКЛОНЕНИЕ 3]</color> Да поднесем дар.
+eventChoice_GazingMoon_nothing=Дъждотворецо, смили се над нас.
+eventChoice_BlackMoon_chant=<color=#D083FF>[ПОКЛОНЕНИЕ 7]</color> Изпей проклятието на Слънцето.
+eventChoice_BlackMoon_nothing=Дъждотворецо, смили се над нас.
+eventChoice_BlackMoon_offering=<color=#D083FF>[ПОКЛОНЕНИЕ 3]</color> Да поднесем дар.
+eventChoice_ChantingMoon_sing=<color=#D083FF>[ПОКЛОНЕНИЕ 7]</color> Запей с тях.
+eventChoice_ChantingMoon_nothing=Дъждотворецо, смили се над нас.
+eventChoice_ChantingMoon_offering=<color=#D083FF>[ПОКЛОНЕНИЕ 3]</color> Да поднесем дар.
+eventChoiceDesc_GreenMoon_offering=-20 храна в лагера.\nОтменя събитието: Бездънните води вече няма да са Заразени с чума.
+eventChoiceDesc_GreenMoon_sickness=Присъстващите оцелели губят половината от текущото си здраве (то не може да падне под 1).\nПрисъстващите оцелели получават завинаги +50 кислород.
+eventChoiceDesc_GazingMoon_offering=-20 храна в лагера.\nОтменя събитието: Бездънните води вече няма да са Под погледа на Луната.
+eventChoiceDesc_GazingMoon_watchus=Животът на {survivor} е принесен в жертва.\nОстаналите присъстващи оцелели получават завинаги +2,0 кг товароносимост.
+eventChoiceDesc_BlackMoon_offering=-20 храна в лагера.\nОтменя събитието: Бездънните води вече няма да са Беззвездни.
+eventChoiceDesc_BlackMoon_chant=-10 морал в лагера.\n+1 ден до Потопа.
+eventChoiceDesc_ChantingMoon_nothing=Днес псалмопевците на Дъжда пеят в Бездънните води.
+eventChoiceDesc_ChantingMoon_offering=-20 храна в лагера.\nОтменя събитието: псалмопевците на Дъжда вече няма да пеят в Бездънните води днес.
+eventChoiceDesc_ChantingMoon_sing=-10 морал в лагера.\nПрисъстващите оцелели възстановяват психиката си напълно и получават завинаги +10 психика.
+hubRandomEventDesc_ChantingMoon=Какъв е този зловещ звук? Невъзможно е един човек да пее така, защото псалмът идва от всички посоки.\n\nОт всички посоки, включително... отгоре? Най-силен е именно там.\n\nВъзможно ли е... луната...?\n\n<color=#00FFBF>Днес в Бездънните води пеят побъркващи псалмопевци на Дъжда. Убий ги, за да получиш произволни постоянни подобрения на характеристиките.</color>
+hubRandomEventDesc_BlackMoon=Днес не изгря нито слънце, нито луна. Небето е беззвездна пустота, по-черна и от самия Черен дъжд.\n\nПреди няколко години щяхме да изпаднем в паника, но в този дъждовен свят вече малко неща могат да ни изненадат.\n\nИ все пак нещо тъмно и отвъдно трябва да го е породило. Трябва да сме предпазливи.\n\n<color=#00FFBF>При следващото гмуркане Бездънните води ще бъдат Беззвездни. Зловещите Мрачни ще бродят из тях и ще пазят скъпоценните черни кутии.</color>
+hubRandomEventDesc_GazingMoon=Джак е невероятно неспокоен днес, а това говори много за човек, който свива рамене дори пред самия Черен дъжд.\n\n„Не поглеждай нагоре. Луната ще те види...“\n\nНевъзможно е да разберем напълно какво има предвид, но е усетил нещо — всички го чувстваме: наблюдават ни.\n\n<color=#00FFBF>При следващото гмуркане Бездънните води ще бъдат Под погледа на Луната. Мощни лунни лъчи ще разкъсват водата и ще убиват приятели и врагове, но ще благославят ресурсите.</color>
+hubRandomEventDesc_GreenMoon=Гнусното, мерзкото, отвратителното... Под Зелената луна всичко това става примамливо.\n\nКогато тя излъчва болнавата си светлина, ценностите се обръщат с главата надолу. Отблъскващото става неустоимо.\n\nО, Дъждотворецо... ще ни опазиш ли, или ще се поддадем на зова на чумата?\n\n<color=#00FFBF>При следващото гмуркане Бездънните води ще бъдат Заразени с чума. Бавно ще губиш здраве, но враговете ще дават двойно повече опит и може да откриеш ценни Чумни сълзи.</color>
+hubRandomEventTitle_ChantingMoon=Пееща луна
+hubRandomEventTitle_BlackMoon=Черна луна
+hubRandomEventTitle_GazingMoon=Луна под поглед
+hubRandomEventTitle_GreenMoon=Зелена луна
+hubRandomEventDesc_FoodCrate=Джак забеляза дървен сандък, който се носеше близо до лагера...\n\nСлава на Дъждотвореца, вътре има храна! Човек би се зачудил защо онзи стар рибар не я е задържал за себе си, но никой няма да се оплаче...\n\n<color=#00FFBF>+{value} храна в лагера</color>
+eventChoice_FoodCrate=Добро око, Джак.
+hubRandomEventTitle_Newspaper=Стари новини
+hubRandomEventDesc_Newspaper=Джак забеляза дървен сандък, който се носеше близо до лагера...\n\nВътре имаше стари вестници отпреди апокалипсиса. Политически сензации и безброй краткотрайни горещи теми.\n\n<i>„{hotTake}“</i>\n\nВсичко това сега изглежда толкова наивно и успокояващо...\n\n<color=#00FFBF>+{value} морал в лагера</color>
+reportEvent_whiteBoon={survivor} е благословен от Бяла риба-благодетел и получава {value} {attribute}.
+notification_extractorLimit=Имаш твърде много активни екстрактори (макс.: {max})
+hubRandomEventTitle_FoodCrate=Само да можеха всички да плуват...
+eventChoice_Newspaper=Само да знаехме по-рано...
+loadingTips_offerings=Не чакай да стане късно, за да поднесеш ежедневния си дар на Олтара. Потопът наближава.
+rainmakerBlessing_subtitle=Дъждотворецът благослови нов биом
+endgamePopup_text=Невъзможното присъствие на Дъждотвореца изисква да му предадеш Неговите идоли. Неговата скръб и власт преминават през тялото и ума ти.
+endgamePopup_cancel=Върни се по-късно
+endgamePopup_handOverIdols=Предай {count} идола
+endgamePopup_cancelTooltip=Можеш да се върнеш по всяко време, преди Отброяването до Потопа да изтече.
+endgamePopup_handOverIdolsTooltip=Това ще сложи край на твоето начинание.\n<color=#FFFFFF>Съдбата на човечеството ще зависи от удовлетворението на Дъждотвореца.</color>
+interaction_heartOfTheRainmaker=Сърцето на Дъждотвореца
+gameEndPopup_title=Краят
+gameEndPopup_text=Угодил си на Дъждотвореца и си предотвратил Потопа.\n\n<color=#FFB500>Това начинание приключи, но можеш да продължиш от предишния ден. Идоли вече не могат да бъдат намирани, а Отброяването е изключено.</color>\n\nВ режимите с по-висока трудност те очакват още по-тежки предизвикателства!
+bestiaryDescription_Despair=Тези прокълнати същества бродят из Гробището, заобиколени от безбройните трупове на рожбите на Дъждотвореца. Там плачат и ридаят в отчаяние, привличайки вниманието на страховития Пазач на гробището…\n\nСрещат се в Гробището.\nАко се приближиш твърде много, ще нададат писък.
+bestiaryDescription_RainChord=Това огромно змиеподобно същество сякаш е натоварено да пази гробовете на изгубените рожби на Дъждотвореца. То е същество от чиста енергия на Дъжда.\n\nСреща се в Гробището.\nНе обръща внимание на хората, освен ако не обезпокоят сирените на отчаянието.
+bestiaryDescription_BeaconJellyfish=Тези биолуминесцентни медузи сякаш са в симбиоза с Преследвачите и вероятно се хранят с разлагащите се останки на плячката, която са помогнали да открият.\n\nСрещат се в кладенците на Преследвачите, но само след като мястото е било благословено.\nСветлинните им лъчи привличат Преследвачите.
+bestiaryDescription_HandRain=Тези пародии на човешкото тяло сякаш са в симбиоза с Безликите акули и задържат плячката им, докато гигантите се врязват в нея.\n\nСрещат се в Багровия басейн, но само след като мястото е било благословено.\nХващат те при допир и за известно време ограничават движенията ти.
+bestiaryDescription_Sunless=Тези същества от чиста тъмнина излъчват такава злоба, че човек се пита дали са родени от Черния дъжд, или от нещо още по-мрачно.\n\nПоявяват се само под Черна луна и пазят скъпоценните си черни кутии. Ако се изправиш срещу Мрачния, имаш само един разумен избор: обърни се и плувай в обратната посока. Бързо.
+bestiaryDescription_RainPsalmist=Призован под Пеещата луна, сиреноподобният му химн разяжда духа на всеки, който го чуе.\n\nБезмълвното му отстраняване носи неизвестна благословия, ако успееш да устоиш на зловещата му песен и рояците пиявици, които тя призовава.
+notification_cantDropType=Този вид предмет не може да бъде изпуснат
+reportEvent_workshopOpen=<color=#FFB000>Работилницата</color> вече е отворена.
+reportEvent_newRecipes=<color=#00FFBF>Нови рецепти</color> са налични в Работилницата.
+reportEvent_newSurvivors=<color=#00FFBF>Нови оцелели</color> се присъединиха към лагера.
+memorialMenu_causeOfDeath_oxygen=Удавен.
+memorialMenu_causeOfDeath_killer algae=Отровен от убийствени водорасли.
+memorialMenu_causeOfDeath_sanity leech=Психиката му е изсмукана от пиявици на психиката.
+memorialMenu_noDeadTitle=Няма мъртви, които да оплакваме.
+memorialMenu_noDeadSubtitle=Дано бездната позволи това да продължи.
+memorialMenu_causeOfDeath_spider=Погубен от онова, което пълзи.
+notification_shoulderPopped=Рамото ти е извадено, не можеш да използваш този предмет
+memorialMenu_causeOfDeath_ExpeditionFailed=Изгубен по време на експедиция.
+memorialMenu_causeOfDeath_bloodTribute=Принесен в жертва на Дъждотвореца.
+deathMotive_bloodTribute=Животът на {name} беше принесен в жертва на Дъждотвореца.
+memorialMenu_causeOfDeath_stalker=Погълнат от онова, което дебне в тъмното.
+conditionDesc_Unconscious=Оцелелият е в безсъзнание.\nНапълно е неспособен да действа и не може да възстанови здравето си, докато не бъде излекуван.\nАко не се погрижите за него, може да умре.\nПоддръжките са 0.
+conditionDesc_Hungry=Може да предизвика хаос в лагера; -30% здраве
+itemName_BloodDart=Кървава стреличка
+itemName_Blueprint_CorrosiveDart=Разяждаща стреличка
+itemName_Blueprint_FoamDart=Пенеста стреличка
+itemName_Blueprint_NeedleGun=Пистолет за стрелички
+itemName_Blueprint_NeedleGun_BloodInfusion=Кръвно вливане в пистолета за стрелички
+itemName_Blueprint_NeedleGun_EldritchChamber=То, което стреля
+itemName_Blueprint_NeedleGun_LargeChamber=Голям пълнител за пистолета за стрелички
+itemName_Blueprint_RainDart=Дъждовна стреличка
+itemName_Blueprint_TranquilizingDart=Приспивна стреличка
+itemName_FoamDart=Пенеста стреличка
+itemName_NeedleGun_BloodInfusion=Кръвно вливане в пистолета за стрелички
+itemName_NeedleGun_EldritchChamber=То, което стреля
+itemName_RainDart=Дъждовна стреличка
+condition_AlbinoLeechEuphoria=<link="conditionDesc_AlbinoLeechEuphoria">Еуфория от албиносна пиявица</link>
+itemTooltip_weight=<i>Тегло: {value} кг ({value2} кг всяко)</i>
+workshopMenu_heldItemQty=Наличност: {value}
+divingDeckMenu_usables=Инструменти и консумативи
+divingReport_deathText={name} служи на общността ни в продължение на\n{days} дни.\n\n{pronoun} ще остане в паметта ни.
+divingReport_deathDescText={name} не успя да се върне
+journalPageDate_0=17 юни, година 1, ерата на дъждовете
+journalPageDate_3=3 август, година 1, ерата на дъждовете
+journalPageDate_4=12 септември, година 1, ерата на дъждовете
+journalPageDate_6=25 декември, година 1, ерата на дъждовете
+campStatusThreshold_Morale+1=Доволни
+campStatusThreshold_Nutrition-1=Гладни
+campStatusThreshold_Nutrition+1=Сити
+campStatusThreshold_Nutrition+2=Добре нахранени
+loadingTips_oxygen=Следи нивото на кислорода. На връщане ще ти трябва въздух.
+divingReport_descText={name} се върна
+divingReport_closeTextDead=Сбогом
+divingReport_closeTextAlive=Почини си
+label_day\n=Ден
+menu_Lighthouse=Фар
+title_prototypeFinished=Благодарим ти, че игра!
+infirmary_cureCondition=<link="treatmentDesc_cureCondition">Излекувай: {conditionName}</link>
+infirmary_+days=+{days} дни
+infirmary_-days=-{days} дни
+title_campFull=Лагерът е пълен
+expedition_duration=<u>Продължителност:</u> {days} дни
+treatmentDesc_cureCondition=Премахва съответното отрицателно състояние.
+campStatus_nutritionUpkeep=Поддръжка на храната: {value}/ден
+lighthouse_expeditionDestination=<u>Дестинация:</u> {value}
+campStatus_damage={value}/ден
+error_notEnoughMaterials=Недостатъчно материали
+infirmary_treatmentsFinished=Всички лечения приключиха
+bloodTributePopup_text=Сигурен ли си, че искаш да принесеш {survivor} в жертва?
+ftuePopup1_DivingBasics_status=Следи своето <color=#DF2424>здраве</color> и <color=#AC24DF>психика</color>. Ако някое от тях падне до нула, оцелелият ще умре или съответно ще полудее.
+ftuePopup1_DivingBasics_title=Гмуркане в Бездънните води
+objectiveTitle_OpenMenu_Lighthouse=Нови попълнения
+objectiveDesc_Dive_1=Започни гмуркане от палубата за гмуркане
+ftuePopup2_Lighthouse_title=Фарът
+ftuePopup2_Lighthouse_survivors=Всеки ден в лагера ти пристига нов <color=#00FFBF>оцелял</color>.
+ftuePopup6_BuildStructures_fishingHut=След това ще можеш да поправиш <color=#00FFBF>рибарската хижа</color>, <color=#00FFBF>библиотеката</color> и <color=#00FFBF>мемориала</color>.
+ftuePopup3_Workshop_consumables=<color=#00FFBF>Консумативите</color> и <color=#00FFBF>мунициите</color> могат да се изработват многократно и се губят при смърт.
+ftuePopup4_DivingDeck_unableToDive=Понякога оцелелите не могат да се гмуркат според текущата си <color=#00FFBF>професия</color> и <color=#00FFBF>състояние</color>.
+ftuePopup6_BuildStructures_altar=Започни с <color=#00FFBF>олтара</color> и <color=#00FFBF>лечебницата</color>.
+objectiveTitle_CollectType_Idol=Докажи вярата си
+objectiveDesc_CollectType_Idol=Намери окултни идоли преди Потопа, после се спусни до най-дълбоката точка на Бездънните води {count}
+ftuePopup7_Townhall_title=Кметството
+ftuePopup8_Infirmary_treatment=Изпрати оцелелите в <color=#00FFBF>лечебницата</color>, за да ги излекуваш. Те няма да са на разположение, докато лечението не приключи.
+ftuePopup10_Memorial_commune=Можеш да <color=#00FFBF>изгориш предмети</color> като дар за мъртвите, за да получиш специални състояния и опит.
+label_Bulgarian=Български

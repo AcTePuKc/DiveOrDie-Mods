@@ -1,0 +1,66 @@
+name: Build and release Skip Intro
+
+on:
+  push:
+    tags:
+      - "skip-intro-v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Package version"
+        required: true
+        default: "0.1.0"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Determine version
+        id: version
+        shell: pwsh
+        run: |
+          if ("${{ github.event_name }}" -eq "push") {
+            $version = "${{ github.ref_name }}".Replace("skip-intro-v", "")
+          }
+          else {
+            $version = "${{ inputs.version }}"
+          }
+          "version=$version" >> $env:GITHUB_OUTPUT
+
+      - name: Build and package
+        shell: pwsh
+        run: .\Skip_intro\scripts\package-release.ps1 -Version "${{ steps.version.outputs.version }}"
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DiveOrDieSkipIntro-${{ steps.version.outputs.version }}
+          path: Skip_intro/dist/DiveOrDieSkipIntro-${{ steps.version.outputs.version }}.zip
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $archive = "Skip_intro/dist/DiveOrDieSkipIntro-${{ steps.version.outputs.version }}.zip"
+          if (gh release view "${{ github.ref_name }}" 2>$null) {
+            gh release upload "${{ github.ref_name }}" $archive --clobber
+          }
+          else {
+            gh release create "${{ github.ref_name }}" $archive `
+              --title "DIVE or DIE – Skip Intro ${{ steps.version.outputs.version }}" `
+              --notes-file "Skip_intro/CHANGELOG.md"
+          }

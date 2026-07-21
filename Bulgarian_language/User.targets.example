@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <GameDir>C:\Path\To\DIVE or DIE - Children of Rain</GameDir>
+  </PropertyGroup>
+</Project>

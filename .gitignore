@@ -1,0 +1,28 @@
+# Build artifacts
+**/bin/
+**/obj/
+**/build/
+**/dist/
+**/release/
+
+# Machine-specific configuration
+**/User.targets
+*.user
+*.suo
+
+# Game, loader, logs, and research data
+**/BepInEx/
+**/LogOutput.log
+**/Player.log
+**/Player-prev.log
+decompilation/
+dumps/
+data/
+tools/
+*.zip
+*.7z
+*.rar
+
+# IDE files
+.vs/
+.idea/
