@@ -20,10 +20,10 @@ jobs:
 
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up .NET
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v6
         with:
           dotnet-version: "8.0.x"
 
@@ -44,7 +44,7 @@ jobs:
         run: .\Skip_intro\scripts\package-release.ps1 -Version "${{ steps.version.outputs.version }}"
 
       - name: Upload workflow artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: DiveOrDieSkipIntro-${{ steps.version.outputs.version }}
           path: Skip_intro/dist/DiveOrDieSkipIntro-${{ steps.version.outputs.version }}.zip
