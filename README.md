@@ -11,6 +11,10 @@ The projects are independent. Players may install either mod by itself or both t
 
 This repository does not contain game assemblies, extracted game assets, BepInEx binaries, logs, decompiled files, or private development notes.
 
+## License
+
+The project source is available under the [MIT License](LICENSE). DIVE or DIE, its name, and its original assets remain the property of their respective owners.
+
 ---
 
 # Модове за DIVE or DIE
@@ -25,3 +29,7 @@ This repository does not contain game assemblies, extracted game assets, BepInEx
 Двата проекта са независими. Може да се използва само единият или и двата едновременно.
 
 Хранилището не съдържа библиотеки от играта, извлечени ресурси, файлове на BepInEx, дневници, декомпилирани файлове или лични работни бележки.
+
+## Лиценз
+
+Изходният код на проектите се разпространява съгласно [лиценза MIT](LICENSE). DIVE or DIE, името на играта и оригиналните ѝ ресурси остават собственост на съответните им притежатели.

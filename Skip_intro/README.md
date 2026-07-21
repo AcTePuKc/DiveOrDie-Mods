@@ -13,6 +13,8 @@ Standalone BepInEx 5 preloader patcher for **DIVE or DIE – Children of Rain**.
 
 The mod contains no localization code and does not require the Bulgarian Language project.
 
+The source is distributed under the [MIT License](../LICENSE).
+
 ### Installation
 
 1. Install BepInEx 5.4.23.5 for the Windows x64 Mono version of the game.
@@ -46,6 +48,8 @@ Skip Intro does not modify language settings. If Bulgarian Language was previous
 - прехода с предупреждението за автоматично запазване.
 
 Модът не съдържа код за локализация и не изисква проекта Bulgarian Language.
+
+Изходният код се разпространява съгласно [лиценза MIT](../LICENSE).
 
 ### Инсталиране
 

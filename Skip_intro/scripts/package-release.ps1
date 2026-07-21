@@ -24,6 +24,8 @@ $patcherDir = Join-Path $stagingRoot "BepInEx\patchers"
 if (Test-Path -LiteralPath $stagingRoot) { Remove-Item -LiteralPath $stagingRoot -Recurse -Force }
 New-Item -ItemType Directory -Force -Path $patcherDir | Out-Null
 Copy-Item -LiteralPath (Join-Path $modRoot "build\DiveOrDieSkipIntro\DiveOrDieSkipIntroPatcher.dll") -Destination $patcherDir -Force
+Copy-Item -LiteralPath (Join-Path $modRoot "README.md") -Destination $stagingRoot -Force
+Copy-Item -LiteralPath (Join-Path (Split-Path $modRoot) "LICENSE") -Destination $stagingRoot -Force
 
 New-Item -ItemType Directory -Force -Path $OutputDir | Out-Null
 $zipPath = Join-Path $OutputDir "$releaseName.zip"
