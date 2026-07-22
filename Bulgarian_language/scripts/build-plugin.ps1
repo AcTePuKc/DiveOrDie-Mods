@@ -28,7 +28,7 @@ else {
     else {
         & $loaderBuild -Configuration $Configuration -GameDir $GameDir
     }
-    if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+    if (-not $?) { throw "Survivor name loader build failed." }
 }
 
 [pscustomobject]@{

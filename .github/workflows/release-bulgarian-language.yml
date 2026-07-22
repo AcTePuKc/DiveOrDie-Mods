@@ -47,6 +47,7 @@ jobs:
         with:
           name: DiveOrDieBulgarianLanguage-${{ steps.version.outputs.version }}
           path: Bulgarian_language/dist/DiveOrDieBulgarianLanguage-${{ steps.version.outputs.version }}.zip
+          if-no-files-found: error
 
       - name: Publish GitHub Release
         if: startsWith(github.ref, 'refs/tags/')

@@ -14,7 +14,7 @@ if ([string]::IsNullOrWhiteSpace($OutputDir)) {
 $OutputDir = [System.IO.Path]::GetFullPath($OutputDir)
 
 & (Join-Path $PSScriptRoot "build-plugin.ps1") -Configuration $Configuration -GameDir $GameDir -UsePrebuilt:$UsePrebuilt
-if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+if (-not $?) { throw "Bulgarian Language build failed." }
 
 $releaseName = "DiveOrDieBulgarianLanguage-$Version"
 $stagingRoot = [System.IO.Path]::GetFullPath((Join-Path $OutputDir $releaseName))
