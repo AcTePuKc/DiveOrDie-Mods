@@ -54,7 +54,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          $archive = "Bulgarian_language/dist/DiveOrDieBulgarianLanguage-${{ steps.version.outputs.version }}.zip"
+          $archive = (Resolve-Path "Bulgarian_language/dist/DiveOrDieBulgarianLanguage-${{ steps.version.outputs.version }}.zip").Path
           if (gh release view "${{ github.ref_name }}" 2>$null) {
             gh release upload "${{ github.ref_name }}" $archive --clobber
           }
