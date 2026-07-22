@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>DiveOrDieSurvivorNameLoader</AssemblyName>
+    <RootNamespace>DiveOrDieSurvivorNameLoader</RootNamespace>
+    <Version>0.1.0</Version>
+    <GameDir Condition="'$(GameDir)' == '' and '$(DIVE_OR_DIE_DIR)' != ''">$(DIVE_OR_DIE_DIR)</GameDir>
+  </PropertyGroup>
+
+  <Import Project="$(MSBuildThisFileDirectory)..\..\User.targets" Condition="Exists('$(MSBuildThisFileDirectory)..\..\User.targets')" />
+
+  <Target Name="ValidateGameDir" BeforeTargets="ResolveReferences" Condition="'$(GameDir)' == ''">
+    <Error Text="Set GameDir in User.targets, set DIVE_OR_DIE_DIR, or pass -p:GameDir=..." />
+  </Target>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>$(GameDir)\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameDir)\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(GameDir)\Dive or Die_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(GameDir)\Dive or Die_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameDir)\Dive or Die_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Localization">
+      <HintPath>$(GameDir)\Dive or Die_Data\Managed\Unity.Localization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

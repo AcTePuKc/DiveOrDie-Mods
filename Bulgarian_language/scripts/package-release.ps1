@@ -2,7 +2,8 @@ param(
     [string]$Version = "0.1.0",
     [string]$OutputDir = "",
     [string]$Configuration = "Release",
-    [string]$GameDir = $env:DIVE_OR_DIE_DIR
+    [string]$GameDir = $env:DIVE_OR_DIE_DIR,
+    [switch]$UsePrebuilt
 )
 
 $ErrorActionPreference = "Stop"
@@ -12,7 +13,7 @@ if ([string]::IsNullOrWhiteSpace($OutputDir)) {
 }
 $OutputDir = [System.IO.Path]::GetFullPath($OutputDir)
 
-& (Join-Path $PSScriptRoot "build-plugin.ps1") -Configuration $Configuration -GameDir $GameDir
+& (Join-Path $PSScriptRoot "build-plugin.ps1") -Configuration $Configuration -GameDir $GameDir -UsePrebuilt:$UsePrebuilt
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 $releaseName = "DiveOrDieBulgarianLanguage-$Version"
@@ -26,7 +27,9 @@ $configDir = Join-Path $stagingRoot "BepInEx\config"
 if (Test-Path -LiteralPath $stagingRoot) { Remove-Item -LiteralPath $stagingRoot -Recurse -Force }
 New-Item -ItemType Directory -Force -Path $pluginDir, $configDir | Out-Null
 Copy-Item -LiteralPath (Join-Path $modRoot "build\DiveOrDieTranslationMod\DiveOrDieTranslationMod.dll") -Destination $pluginDir -Force
+Copy-Item -LiteralPath (Join-Path $modRoot "build\DiveOrDieTranslationMod\DiveOrDieSurvivorNameLoader.dll") -Destination $pluginDir -Force
 Copy-Item -LiteralPath (Join-Path $modRoot "src\DiveOrDieTranslationMod\translations\labels.txt") -Destination (Join-Path $pluginDir "labels.txt") -Force
+Copy-Item -LiteralPath (Join-Path $modRoot "src\DiveOrDieTranslationMod\translations\survivor-names.json") -Destination (Join-Path $pluginDir "survivor-names.json") -Force
 Copy-Item -LiteralPath (Join-Path $modRoot "config\actepukc.diveordie.translationbulgarian.cfg") -Destination $configDir -Force
 Copy-Item -LiteralPath (Join-Path $modRoot "scripts\reset-language-before-disable.ps1") -Destination $stagingRoot -Force
 Copy-Item -LiteralPath (Join-Path $modRoot "UNINSTALL.md") -Destination $stagingRoot -Force
